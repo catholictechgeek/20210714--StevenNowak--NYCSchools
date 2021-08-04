@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2393375926AE8FC200F89065 /* SATScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2393375826AE8FC200F89065 /* SATScore.swift */; };
+		2393375B26B202F600F89065 /* ScoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2393375A26B202F600F89065 /* ScoreService.swift */; };
+		23AABEBC26A160460071F764 /* SATVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AABEBB26A160460071F764 /* SATVIew.swift */; };
+		23DA733426B8F46F00DD7053 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DA733326B8F46F00DD7053 /* Reachability.swift */; };
+		23DA733826B8F75700DD7053 /* NoInterwebzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DA733726B8F75700DD7053 /* NoInterwebzView.swift */; };
 		23DEDDD5269F690E007E3090 /* _0210714__StevenNowak__NYCSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DEDDD4269F690E007E3090 /* _0210714__StevenNowak__NYCSchoolsApp.swift */; };
 		23DEDDD7269F690E007E3090 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DEDDD6269F690E007E3090 /* ContentView.swift */; };
 		23DEDDD9269F6914007E3090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DEDDD8269F6914007E3090 /* Assets.xcassets */; };
 		23DEDDDC269F6914007E3090 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DEDDDB269F6914007E3090 /* Preview Assets.xcassets */; };
-		23DEDDDE269F6914007E3090 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DEDDDD269F6914007E3090 /* Persistence.swift */; };
-		23DEDDE1269F6914007E3090 /* _0210714__StevenNowak__NYCSchools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23DEDDDF269F6914007E3090 /* _0210714__StevenNowak__NYCSchools.xcdatamodeld */; };
 		23DEDDEC269F6914007E3090 /* _0210714__StevenNowak__NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DEDDEB269F6914007E3090 /* _0210714__StevenNowak__NYCSchoolsTests.swift */; };
 		23DEDDF7269F6914007E3090 /* _0210714__StevenNowak__NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DEDDF6269F6914007E3090 /* _0210714__StevenNowak__NYCSchoolsUITests.swift */; };
+		23DEDE05269F6AE1007E3090 /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DEDE04269F6AE1007E3090 /* JsonData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2393375826AE8FC200F89065 /* SATScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScore.swift; sourceTree = "<group>"; };
+		2393375A26B202F600F89065 /* ScoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreService.swift; sourceTree = "<group>"; };
+		23AABEBB26A160460071F764 /* SATVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATVIew.swift; sourceTree = "<group>"; };
+		23DA733326B8F46F00DD7053 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		23DA733726B8F75700DD7053 /* NoInterwebzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInterwebzView.swift; sourceTree = "<group>"; };
 		23DEDDD1269F690E007E3090 /* 20210714-[StevenNowak]-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20210714-[StevenNowak]-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DEDDD4269F690E007E3090 /* _0210714__StevenNowak__NYCSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0210714__StevenNowak__NYCSchoolsApp.swift; sourceTree = "<group>"; };
 		23DEDDD6269F690E007E3090 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23DEDDD8269F6914007E3090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23DEDDDB269F6914007E3090 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		23DEDDDD269F6914007E3090 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		23DEDDE0269F6914007E3090 /* _0210714__StevenNowak__NYCSchools.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _0210714__StevenNowak__NYCSchools.xcdatamodel; sourceTree = "<group>"; };
 		23DEDDE2269F6914007E3090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23DEDDE7269F6914007E3090 /* 20210714-[StevenNowak]-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20210714-[StevenNowak]-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DEDDEB269F6914007E3090 /* _0210714__StevenNowak__NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0210714__StevenNowak__NYCSchoolsTests.swift; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		23DEDDF2269F6914007E3090 /* 20210714-[StevenNowak]-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20210714-[StevenNowak]-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DEDDF6269F6914007E3090 /* _0210714__StevenNowak__NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0210714__StevenNowak__NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		23DEDDF8269F6915007E3090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23DEDE04269F6AE1007E3090 /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +110,14 @@
 				23DEDDD4269F690E007E3090 /* _0210714__StevenNowak__NYCSchoolsApp.swift */,
 				23DEDDD6269F690E007E3090 /* ContentView.swift */,
 				23DEDDD8269F6914007E3090 /* Assets.xcassets */,
-				23DEDDDD269F6914007E3090 /* Persistence.swift */,
 				23DEDDE2269F6914007E3090 /* Info.plist */,
-				23DEDDDF269F6914007E3090 /* _0210714__StevenNowak__NYCSchools.xcdatamodeld */,
 				23DEDDDA269F6914007E3090 /* Preview Content */,
+				23DEDE04269F6AE1007E3090 /* JsonData.swift */,
+				23AABEBB26A160460071F764 /* SATVIew.swift */,
+				2393375826AE8FC200F89065 /* SATScore.swift */,
+				2393375A26B202F600F89065 /* ScoreService.swift */,
+				23DA733326B8F46F00DD7053 /* Reachability.swift */,
+				23DA733726B8F75700DD7053 /* NoInterwebzView.swift */,
 			);
 			path = "20210714-[StevenNowak]-NYCSchools";
 			sourceTree = "<group>";
@@ -152,6 +164,8 @@
 			dependencies = (
 			);
 			name = "20210714-[StevenNowak]-NYCSchools";
+			packageProductDependencies = (
+			);
 			productName = "20210714-[StevenNowak]-NYCSchools";
 			productReference = 23DEDDD1269F690E007E3090 /* 20210714-[StevenNowak]-NYCSchools.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +237,8 @@
 				Base,
 			);
 			mainGroup = 23DEDDC8269F690E007E3090;
+			packageReferences = (
+			);
 			productRefGroup = 23DEDDD2269F690E007E3090 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,10 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23DEDDDE269F6914007E3090 /* Persistence.swift in Sources */,
 				23DEDDD7269F690E007E3090 /* ContentView.swift in Sources */,
-				23DEDDE1269F6914007E3090 /* _0210714__StevenNowak__NYCSchools.xcdatamodeld in Sources */,
 				23DEDDD5269F690E007E3090 /* _0210714__StevenNowak__NYCSchoolsApp.swift in Sources */,
+				23AABEBC26A160460071F764 /* SATVIew.swift in Sources */,
+				2393375926AE8FC200F89065 /* SATScore.swift in Sources */,
+				23DA733826B8F75700DD7053 /* NoInterwebzView.swift in Sources */,
+				23DA733426B8F46F00DD7053 /* Reachability.swift in Sources */,
+				2393375B26B202F600F89065 /* ScoreService.swift in Sources */,
+				23DEDE05269F6AE1007E3090 /* JsonData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,9 +379,11 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -413,9 +435,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -435,6 +459,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nowaksoft.-0210714--StevenNowak--NYCSchools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -457,6 +482,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nowaksoft.-0210714--StevenNowak--NYCSchools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -588,19 +614,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		23DEDDDF269F6914007E3090 /* _0210714__StevenNowak__NYCSchools.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				23DEDDE0269F6914007E3090 /* _0210714__StevenNowak__NYCSchools.xcdatamodel */,
-			);
-			currentVersion = 23DEDDE0269F6914007E3090 /* _0210714__StevenNowak__NYCSchools.xcdatamodel */;
-			path = _0210714__StevenNowak__NYCSchools.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 23DEDDC9269F690E007E3090 /* Project object */;
 }
