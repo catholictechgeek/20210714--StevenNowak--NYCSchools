@@ -11,7 +11,6 @@
 //   let sATScore = try? newJSONDecoder().decode(SATScore.self, from: jsonData)
 
 import Foundation
-//import SODAKit
 import UIKit
 
 // MARK: - SATScoreElement
@@ -19,9 +18,6 @@ public struct SATScore: Codable {
     public let dbn, schoolName, numOfSatTestTakers, satCriticalReadingAvgScore: String
     public let satMathAvgScore, satWritingAvgScore: String
     
-    //static let url:String = "https://data.cityofnewyork.us/resource/f9bf-2cp4.json"
-    //we would normally never leave a token in code; however, since this is just a demo app, I have left it here for ease
-    //static let client = SODAClient(domain: "data.cityofnewyork.us", token: "98ZzvJocXcO5tTRvw1MiNRrTa")
     
     enum CodingKeys: String, CodingKey {
         case dbn

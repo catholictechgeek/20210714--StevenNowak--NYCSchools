@@ -7,7 +7,8 @@
 
 import Foundation
 
-//we are setting this up as singleton to act as pseudo-database
+//we are setting this up as singleton to act as pseudo-database and as such, we only want 1 instance of this ever
+//we are using a Dictionary as storage because of its ease in getting up and running and its fetch speed (since we only add once and then just fetch on primary key)
 public class ScoreService {
     public static var instance = ScoreService()
     private var dbase:[String:SATScore]
@@ -15,18 +16,10 @@ public class ScoreService {
     
     private init() {
         dbase = [:];
-        //to cut down on network calls and data usage (especially on cellular connection, we will do a bulk init instead of calls for idividual item and adding them to the directory as we go
-        //refresh();
     }
     
     public func get(_ id:String) -> SATScore? {
         //we search by dbn here
-        //we must wait until we are finished initialzing before we return results
-        /*
-        while (!finished) {
-            sleep(1);
-        }
- */
         if(has(id)) {
             return dbase[id];
         }
@@ -37,6 +30,7 @@ public class ScoreService {
     }
     
     #if DEBUG
+    //this function is for SwiftUI previews only (to add dummy item to our score database)
     internal func add(_ item:SATScore) {
         if(!has(item.dbn)) {
             dbase[item.dbn] = item;
@@ -52,8 +46,10 @@ public class ScoreService {
         return dbase.count;
     }
     
+    //this function refreshes the SAT score data with new json data
     internal func refresh() {
         let location = URL(string:ScoreService.url)!;
+        //again, async/await support would be very helpful here, but we won't get that wonderful functionality until Swift 5.5 finally arrives
         let tsk:URLSessionTask = URLSession.shared.dataTask(with: location) { (data, resp, exception) in
             guard let bits = data else {
                 return;
